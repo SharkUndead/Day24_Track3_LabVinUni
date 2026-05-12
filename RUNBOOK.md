@@ -50,14 +50,14 @@ Run offline eval:
 .\.venv\Scripts\python scripts\run_eval.py
 ```
 
-Ket qua hien tai voi placeholder corpus:
+Ket qua hien tai voi `docs/lab24_corpus.md` lay tu README lab:
 
 ```json
 {
-  "faithfulness": 0.2064600000000001,
-  "answer_relevancy": 0.21204000000000003,
-  "context_precision": 0.2064600000000001,
-  "context_recall": 0.2064600000000001
+  "faithfulness": 0.7489199999999998,
+  "answer_relevancy": 0.50574,
+  "context_precision": 0.7489199999999998,
+  "context_recall": 0.7489199999999998
 }
 ```
 
@@ -73,7 +73,16 @@ Ket qua:
 wrote phase-a/failure_analysis.md
 ```
 
-Luu y: Ket qua Phase A hien tai chi la smoke test. De nop that, can them corpus vao `docs/` va thay `scripts/rag_adapter.py::my_rag_pipeline` bang RAG Day 18.
+Luu y: Ket qua Phase A hien tai la offline lexical eval tren corpus README + corpus markdown Day 18, chua phai RAGAS LLM-based eval.
+
+Neu muon thu pipeline Day 18 that, dung venv cua Day 18 va bat flag:
+
+```powershell
+$env:USE_DAY18_RAG='true'
+& "D:\VinUni_proJect_day\day 18\Day18-Track3-Production-RAG\venv\Scripts\python.exe" scripts\run_eval.py
+```
+
+Trang thai hien tai: ProductionRAG Day 18 khoi dong duoc, nhung Dense/Qdrant search fail trong moi truong nay vi model/network bi chan. Adapter se fallback ve lexical RAG neu Day 18 query khong tra ve contexts.
 
 ## Phase B - Judge Smoke Test
 
@@ -99,13 +108,11 @@ Tao file label va compute kappa:
 Ket qua hien tai:
 
 ```text
-created phase-b/to_label.csv; fill human_labels.csv before computing kappa
-created placeholder phase-b/human_labels.csv; replace labels for final submission
-Cohen's kappa: 1.000
+Cohen's kappa: 0.000
 wrote phase-b/judge_bias_report.md
 ```
 
-Luu y: `human_labels.csv` hien la placeholder. Khi nop that, mo `phase-b/to_label.csv`, tu danh nhan 10 cap, sua `human_labels.csv`, roi chay lai calibration.
+Luu y: `human_labels.csv` hien van can human review that. Khi nop that, mo `phase-b/to_label.csv`, tu danh nhan 10 cap, sua `human_labels.csv`, roi chay lai calibration.
 
 ## Phase C - Guardrails Smoke Test
 
@@ -157,8 +164,8 @@ Ket qua hien tai:
 
 ```text
 wrote phase-c/latency_benchmark.csv
-L1: P50=0.0ms P95=0.1ms P99=0.4ms
-L2: P50=0.2ms P95=0.3ms P99=0.4ms
+L1: P50=0.0ms P95=0.0ms P99=0.2ms
+L2: P50=3.7ms P95=4.2ms P99=4.7ms
 L3: P50=0.0ms P95=0.0ms P99=0.0ms
 ```
 

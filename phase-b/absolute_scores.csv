@@ -1,31 +1,31 @@
 question_id,question,accuracy,relevance,conciseness,helpfulness,overall
-0,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-1,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-2,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-3,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-4,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-5,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-6,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-7,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-8,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-9,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-10,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-11,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-12,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-13,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-14,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-15,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-16,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-17,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-18,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-19,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-20,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-21,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-22,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-23,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-24,What is the main point of this passage: Add real markdown or text files under docs before final evaluation?,3,5,5,5,4.5
-25,What is the main point of this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-26,What can be inferred from this passage: Add real markdown or text files under docs before final evaluation?,3,3,5,3,3.5
-27,What can be inferred from this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
-28,What can be inferred from this passage: Add real markdown or text files under docs before final evaluation?,3,3,5,3,3.5
-29,What can be inferred from this passage: This offline row exists only to verify that the lab pipeline runs end to end?,3,5,5,5,4.5
+0,What is the main point of this passage: # Day 18 Company Policy Corpus  Source: `D:\VinUni_proJect_day\day 18\Day18-Trac?,3,5,5,5,4.5
+1,What is the main point of this passage: ## Annual leave  Official employees receive 12 paid annual leave days per calend?,3,5,5,5,4.5
+2,"What is the main point of this passage: For every 5 continuous years of service at the company, an employee receives 1 a?",3,5,5,5,4.5
+3,"What is the main point of this passage: Probation time is not counted immediately for annual leave, but after signing th?",3,5,5,5,4.5
+4,What is the main point of this passage: ## Paid personal leave  Employees receive 3 paid days for their own marriage?,3,5,5,5,4.5
+5,What is the main point of this passage: Employees receive 1 paid day when their child gets married?,3,5,5,5,4.5
+6,"What is the main point of this passage: Employees receive 3 paid days when a parent, parent-in-law, spouse, or child pas?",3,5,5,5,4.5
+7,"What is the main point of this passage: Other family bereavement cases follow labor law, usually 1 day?",3,5,5,5,4.5
+8,"What is the main point of this passage: ## Leave registration  For leave shorter than 3 days, employees must notify at l?",3,5,5,5,4.5
+9,"What is the main point of this passage: For leave of 3 days or more, employees must register at least 1 week, or 7 days,?",3,5,5,5,4.5
+10,What is the main point of this passage: Leave is registered through the online HR portal and must be approved by the dir?,3,5,5,5,4.5
+11,"What is the main point of this passage: ## IT and security  To reset or change the company email password, employees mus?",3,5,5,5,4.5
+12,What is the main point of this passage: Employees must not leave laptops unattended in public places and must return equ?,3,5,5,5,4.5
+13,"What is the main point of this passage: Requests for peripherals such as mouse, keyboard, or monitor must be created in ?",3,5,5,5,4.5
+14,"What is the main point of this passage: ## Working hours and benefits  The company works from 08:00 to 17:00, Monday thr?",3,5,5,5,4.5
+15,What is the main point of this passage: Work on holidays and Tet is paid at least 300 percent of the normal daily wage?,3,5,5,5,4.5
+16,What is the main point of this passage: Lunch allowance is defined in each employee's labor contract?,3,5,5,5,4.5
+17,What is the main point of this passage: Employees can register for internal training through the training portal or prop?,3,5,5,5,4.5
+18,"What is the main point of this passage: ## Insurance and health  The company pays compulsory social insurance, health in?",3,5,5,5,4.5
+19,What is the main point of this passage: Employees with at least 1 year of seniority receive a voluntary premium health i?,3,5,5,5,4.5
+20,What is the main point of this passage: Female employees receive 6 months maternity leave and social insurance benefits?,3,5,5,5,4.5
+21,"What is the main point of this passage: For long sick leave, employees must submit medical confirmation to HR within 3 d?",3,5,5,5,4.5
+22,What is the main point of this passage: ## General rules  Employees should wear professional clothing at the office?,3,5,5,5,4.5
+23,What is the main point of this passage: Employees with indefinite-term contracts must provide at least 45 days notice be?,3,5,5,5,4.5
+24,What is the main point of this passage: # Day 18 HR Leave Policy Corpus  Source: `D:\VinUni_proJect_day\day 18\Day18-Tra?,3,5,5,5,4.5
+25,What is the main point of this passage: ## Annual leave  Official employees receive 12 working days of annual leave each?,3,5,5,5,4.5
+26,What can be inferred from this passage: Employees with seniority receive 1 extra annual leave day for every 5 continuous?,3,5,5,5,4.5
+27,What can be inferred from this passage: ## Public holidays  Employees receive paid days off for Vietnamese labor-law hol?,3,5,5,5,4.5
+28,What can be inferred from this passage: ## Paid personal leave  Employees receive paid personal leave in the following c?,3,5,5,5,4.5
+29,What can be inferred from this passage: ## Leave registration process  Employees must register annual leave through the ?,3,5,5,5,4.5

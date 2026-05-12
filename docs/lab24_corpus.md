@@ -1,29 +1,5 @@
 
 
-# Submission Working Summary
-
-This repository now contains a runnable Lab 24 scaffold for an evaluation and guardrail system. The current implementation includes an offline lexical RAG adapter, synthetic testset generation, offline eval scoring, failure analysis, pairwise/absolute judge scaffolding, input/output guardrails, adversarial tests, latency benchmark, CI eval gate, and a production blueprint.
-
-Current generated results are from an offline smoke-test setup using `docs/lab24_corpus.md`, which is copied from this lab README. Before final submission, replace the corpus with the real project documents, plug the Day 18 RAG pipeline into `scripts/rag_adapter.py`, install the pinned dependencies, and rerun the commands in `RUNBOOK.md`.
-
-Latest smoke-test metrics:
-
-| Area | Current Result |
-|---|---:|
-| Faithfulness | 0.749 |
-| Answer relevancy | 0.506 |
-| Context precision | 0.749 |
-| Context recall | 0.749 |
-| Adversarial detection | 70.0% |
-| Legitimate false positive rate | 0.0% |
-| L1 latency P95 | 0.0ms |
-| L2 latency P95 | 4.2ms |
-| L3 latency P95 | 0.0ms |
-
-See `RUNBOOK.md` for the exact commands to run after each phase.
-
----
-
 # Lab 24 — Full Evaluation & Guardrail System
 
 **Phiên bản dành cho Học Viên**
