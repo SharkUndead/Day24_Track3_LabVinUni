@@ -1,6 +1,6 @@
 # Judge Bias Report
 
-Cohen's kappa vs human labels: 1.000
+Cohen's kappa vs human labels: 0.000
 
 ## Position Bias
 A wins when listed first: 0.0%

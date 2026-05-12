@@ -1,11 +1,11 @@
 question_id,human_winner,confidence,notes
-0,B,low,Placeholder label. Replace with real human judgment.
-1,B,low,Placeholder label. Replace with real human judgment.
-2,B,low,Placeholder label. Replace with real human judgment.
-3,B,low,Placeholder label. Replace with real human judgment.
-4,B,low,Placeholder label. Replace with real human judgment.
-5,B,low,Placeholder label. Replace with real human judgment.
-6,B,low,Placeholder label. Replace with real human judgment.
-7,B,low,Placeholder label. Replace with real human judgment.
-8,B,low,Placeholder label. Replace with real human judgment.
-9,B,low,Placeholder label. Replace with real human judgment.
+0,A,medium,A is cleaner; B only appends raw context and is more verbose.
+1,A,high,A directly answers annual leave; B duplicates A with raw context.
+2,A,medium,A includes the seniority fact; B adds noisy raw context.
+3,A,high,A covers probation and seniority clearly; B is unnecessarily verbose.
+4,tie,low,Both answers miss the paid personal leave focus and discuss annual leave.
+5,tie,low,Both answers miss the child marriage leave detail.
+6,A,medium,A is cleaner and mentions paid personal leave; B adds raw context noise.
+7,tie,low,Both answers miss the bereavement/legal-followup point.
+8,tie,low,Both answers miss the leave registration notice requirement.
+9,tie,low,Both answers miss the 1 week or 7 day registration requirement.
