@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.env
+.env.*
+!.env.example
+
+*.log
+*.tmp
+
+# Local generated data and large artifacts
+demo/*.mp4
+*.sqlite
+*.db
+
+# Keep lab outputs trackable, but ignore local caches
+.cache/
+outputs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
